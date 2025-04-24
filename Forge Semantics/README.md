@@ -3,19 +3,19 @@ This model is intended to model the real-world process of sending & sharing file
 A generalized version of the model can be found in `file_sharing.frg`.  A version that will produce the trace shown in the paper can be found in `file_sharing_paper_trace.frg`.  Tests of the model are located in `file_sharing_tests.frg`.
 
 ## Model Sigs
-#### Person
+#### `Person`
 This is a sig representing email users.  Two specific named Persons are used, Bobbi and Joe.
 
-#### Item
+#### `Item`
 In this model, Items can be files and folders.  Folders can also contain a set of files.
 
-#### Location
+#### `Location`
 This is a sig representing locations where Items can be located (e.g. Bobbi's Google Drive or Joe's Computer).  The email server is a special location reserved for item copies created in the process of emailing a file or folder.
 
-#### Email & EmailContent
+#### `Email` & `EmailContent`
 Emails contain a single sender (from) and require one or more recipients (to) in order to be sent.  They must also have one content: a link (pointing to a Drive item), an attachment (of a computer item), or email text content.
 
-#### Inbox
+#### `Inbox`
 Each user in the system has one inbox, which contains sent, drafted, and received emails, as well as threads created by replying to emails.
 
 ## Transitions
