@@ -1,8 +1,5 @@
 #lang forge/temporal
 
-// Pre-load the vizualization script
-option run_sterling "viz.js"
-
 -- Trace Length
 option max_tracelength 8 -- Max Trace Length
 option min_tracelength 4 -- Min Trace Length
