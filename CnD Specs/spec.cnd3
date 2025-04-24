@@ -1,0 +1,37 @@
+constraints:
+  - group:
+      field: folder_items
+      groupOn: 0
+      addToGroup: 1
+  - group:
+      field: location_items
+      groupOn: 0
+      addToGroup: 1
+directives:
+  - flag: hideDisconnectedBuiltIns
+  - attribute:
+      field: item_creator
+  - attribute:
+      field: item_owner
+  - attribute:
+      field: location
+  - attribute:
+      field: location_owner
+  - color:
+      selector: Inbox
+      value: '#d81b60'
+  - color:
+      selector: Location
+      value: '#004d40'
+  - color:
+      selector: Person
+      value: '#1e88e5'
+  - color:
+      selector: Email
+      value: '#ffc107'
+  - color:
+      selector: EmailContent
+      value: '#ffc107'
+  - color:
+      selector: Item
+      value: '#000000'
