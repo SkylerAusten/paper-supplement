@@ -2,7 +2,7 @@
 
 ## Forge Semantics
 
-The complete [Forge](https://forge-fm.org/) model described in the paper is located in the `Forge Semantics` folder. See `README.md` for a full breakdown of the model’s components. The trace data shown in the paper is available in `trace_datum.xml`.
+The complete [Forge](https://forge-fm.org/) model described in the paper (section 6.4) is located in the `Forge Semantics` folder. See `README.md` for a full breakdown of the model’s components. The trace data shown in the paper is available in `trace_datum.xml`.
 
 ### Running Forge
 
@@ -23,4 +23,4 @@ Installation instructions are available on the [CnD site](https://sidprasad.gith
 
 ## Trace Screenshots
 
-Screenshots of the seven-state trace are in the `Trace Screenshots` folder.
+Screenshots of the seven-state trace (section 6.2) are in the `Trace Screenshots` folder.
